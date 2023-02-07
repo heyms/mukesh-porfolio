@@ -4,7 +4,6 @@ import * as React from "react";
 const AnimationLottie = ({ animationPath }: { animationPath: any }) => {
   const defaultOptions = {
     loop: true,
-    autoplay: true,
     animationData: animationPath,
     style: {
       width: "95%",
